@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.posts',
+    'apps.movies',
     'apps.categories',
     'cloudinary',
     'django_filters',
@@ -88,16 +89,16 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 # Heroku Database
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dch7n72frg031v',
-#         'USER': 'ldpelxievviuhf',
-#         'PORT': 5432,
-#         'HOST': 'ec2-23-23-164-251.compute-1.amazonaws.com',
-#         'PASSWORD': '8a9353d3c2aa7a6baaf128ed3c6fc0a4ede1cccfec1ccc0222e089e0871b8975',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2ejdudqbsfvkh',
+        'USER': 'kgqtqrzzivwdee',
+        'PORT': 5432,
+        'HOST': 'ec2-3-223-213-207.compute-1.amazonaws.com',
+        'PASSWORD': '827ddd78db82892b55c03d73c46b3af977eba3d9c28ede845d2ebc5aee3af0f2',
+    }
+}
 
 # Local Database
 DATABASES = {
